@@ -1,6 +1,6 @@
-import Image from "next/image";
 import {useState, useEffect} from "react"
 import {
+    HomeIcon,
     SearchIcon,
     GlobeAltIcon,
     MenuIcon,
@@ -73,13 +73,10 @@ function Header({ placeholder }) {
             {/* Left Section */}
             <div 
                 onClick={() => router.push("/")}
-                className="relative flex items-center h-10 cursor-pointer my-auto">
-                <Image
-                    src="/static/logo2.png"
-                    layout="fill"
-                    objectFit="contain"
-                    objectPosition="left"
-                />
+                className="relative flex items-center h-10 space-x-3 cursor-pointer my-auto">
+                    <HomeIcon className="h-10 text-red-500"/>
+                    <h1 className="text-3xl text-red-500 font-bold">clone</h1>
+                
             </div>
             {/* Middle Section */}
             <div className={`flex items-center px-2 md:border-2 rounded-full py-2 ${ showErrorSearch ? "border-red-700" : "text-gray-700"}`}>
