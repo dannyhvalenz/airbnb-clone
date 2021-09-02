@@ -6,4 +6,4 @@ It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-
 
 ## Preview
 
-Preview the project live on [Vercel](https://airbnb-clone-fyrulgehl-dannyhvalenz.vercel.app/)
+[Live preview](https://airbnb-clone-sepia-alpha.vercel.app/)
