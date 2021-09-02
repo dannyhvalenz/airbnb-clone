@@ -19,7 +19,7 @@ export default function Home({ exploreData, cardsData }) {
       <Banner />
 
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
-        <section className="">
+        <section>
           <h2 className="pt-8 pb-4 text-2xl md:text-3xl lg:text-4xl font-semibold">Descubre alojamientos cerca de ti</h2>
 
           {/* Obtener datos del servidor - API Endpoints */}
